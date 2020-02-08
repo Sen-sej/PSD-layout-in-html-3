@@ -1,4 +1,12 @@
-body, span, h1, h2, h3, h4, h5, h6, p, a {
+ @font-face {
+   font-family:'Arial'; /* Гарнитура шрифта */
+   src: url('../fonts/ofont.ru_Arial.ttf'); /* Путь к файлу со шрифтом */
+  }
+  @font-face{
+  font-family:'Georgia';
+  src: url('../fonts/ofont.ru_Georgia.ttf');
+}
+ body, span, h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Georgia', sans-serif;
   color:#061e37;
 }
